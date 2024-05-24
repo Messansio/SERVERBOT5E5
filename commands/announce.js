@@ -10,8 +10,8 @@ module.exports = {
         const channel = interaction.options.getChannel('channel');
         const message = interaction.options.getString('message');
 
-        // Controlla i permessi dell'utente
-        if (!interaction.member.permissions.has('MANAGE_MESSAGES')) {
+        // Controlla se l'utente ha il permesso di amministratore
+        if (!interaction.member.permissions.has('ADMINISTRATOR')) {
             return interaction.reply({ content: 'Non hai il permesso per eseguire questo comando.', ephemeral: true });
         }
 

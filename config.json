@@ -2,5 +2,9 @@
     "token": "MTIzODkwNjE4MDk5NTEyNTI4OA.G85P0b.DANfkgOG0nNFTv3mTxv_a1MHWu5cwtfnxjCx3Y",
     "clientId": "1238906180995125288",
     "guildId": "1243500635979120641",
-    "prefix": "/"
-}
+    "prefix": "/",
+    "emojiRoleMap": {},
+    "policy": "unique",
+    "removeReaction": true
+  }
+  

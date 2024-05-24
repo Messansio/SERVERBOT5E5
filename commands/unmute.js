@@ -9,7 +9,8 @@ module.exports = {
     async execute(interaction) {
         const member = interaction.options.getMember('user');
 
-        if (!interaction.member.permissions.has(PermissionsBitField.Flags.MuteMembers)) {
+        // Controlla se l'utente ha il permesso di amministratore
+        if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
             return interaction.reply({ content: 'Non hai il permesso per eseguire questo comando.', ephemeral: true });
         }
 
