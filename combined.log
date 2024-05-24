@@ -1,0 +1,22 @@
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:26:24.481Z"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:26:24.485Z"}
+{"level":"info","message":"Command ping eseguito da messanaj","timestamp":"2024-05-24T11:26:38.722Z"}
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:33:14.457Z"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:33:14.472Z"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:38:11.495Z"}
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:38:11.497Z"}
+{"code":50035,"level":"error","method":"POST","rawError":{"code":50035,"errors":{"name":{"_errors":[{"code":"BASE_TYPE_REQUIRED","message":"This field is required"}]}},"message":"Invalid Form Body"},"requestBody":{"json":{}},"status":400,"timestamp":"2024-05-24T11:39:02.496Z","url":"https://discord.com/api/v10/guilds/1243500635979120641/channels"}
+{"code":50035,"level":"error","method":"POST","rawError":{"code":50035,"errors":{"name":{"_errors":[{"code":"BASE_TYPE_REQUIRED","message":"This field is required"}]}},"message":"Invalid Form Body"},"requestBody":{"json":{}},"status":400,"timestamp":"2024-05-24T11:39:16.789Z","url":"https://discord.com/api/v10/guilds/1243500635979120641/channels"}
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:40:35.088Z"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:40:35.097Z"}
+{"code":50035,"level":"error","method":"POST","rawError":{"code":50035,"errors":{"type":{"_errors":[{"code":"NUMBER_TYPE_COERCE","message":"Value \"GUILD_CATEGORY\" is not int32."}]}},"message":"Invalid Form Body"},"requestBody":{"json":{"name":"Community","type":"GUILD_CATEGORY"}},"status":400,"timestamp":"2024-05-24T11:40:46.809Z","url":"https://discord.com/api/v10/guilds/1243500635979120641/channels"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:42:01.000Z"}
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:42:01.002Z"}
+{"code":"ColorConvert","level":"error","timestamp":"2024-05-24T11:42:10.100Z"}
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:43:59.782Z"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:43:59.785Z"}
+{"code":"ColorConvert","level":"error","timestamp":"2024-05-24T11:44:11.130Z"}
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:46:21.950Z"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:46:21.954Z"}
+{"level":"info","message":"Bot è online! Loggato come 5&5BOT#4789","timestamp":"2024-05-24T11:48:20.855Z"}
+{"level":"info","message":"Bot is online!","timestamp":"2024-05-24T11:48:20.857Z"}
