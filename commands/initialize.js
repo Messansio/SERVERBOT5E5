@@ -6,6 +6,14 @@ module.exports = {
         .setName('initialize')
         .setDescription('Configura il server creando categorie, canali e ruoli per la community'),
     async execute(interaction) {
+        // Controlla se l'utente ha il ruolo "Owner"
+        const member = interaction.member;
+        const ownerRole = member.guild.roles.cache.find(role => role.name === 'Owner');
+        
+        if (!ownerRole || !member.roles.cache.has(ownerRole.id)) {
+            return interaction.reply({ content: 'Non hai il permesso per eseguire questo comando.', ephemeral: true });
+        }
+
         await interaction.reply('Inizializzazione del server in corso...'); // Risposta immediata
 
         const guild = interaction.guild;

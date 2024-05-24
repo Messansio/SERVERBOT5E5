@@ -35,7 +35,7 @@ client.on('interactionCreate', async interaction => {
     try {
         await command.execute(interaction);
     } catch (error) {
-        logger.error(error);
+        logger.error('Errore durante l\'esecuzione del comando:', error);
         await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
     }
 });
